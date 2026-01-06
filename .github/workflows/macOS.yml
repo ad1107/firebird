@@ -5,7 +5,7 @@ on:
     branches: [ master, ci/macOS ]
   pull_request:
     branches: [ master, ci/macOS ]
-  release:
+  release: 
     types: [published]
 
 jobs:
