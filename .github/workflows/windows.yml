@@ -14,7 +14,7 @@ jobs:
     runs-on: windows-2022
     strategy:
       fail-fast: false
-      matrix:
+      matrix: 
         arch:
           - win32
           - win64
